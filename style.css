@@ -1,0 +1,145 @@
+.topo {
+    background-color:   #010368;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 10px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    margin-top: 0;
+    padding: 0;
+    opacity: 0.8;
+    z-index: 1000;
+}
+
+.topo h1 {
+    font-size: 28px;
+    margin-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topo img {
+    height: 65%;
+    width: auto;
+    margin-left: 3%;
+}
+
+.hire {
+    background-color: #ff0004;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    padding: 8px 20px;
+    transition: background-color 0.70 ease;
+    transition: transform 0.900 ease;
+    margin-left: 630px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.hire a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hire:hover {
+    background-color: #d10003;
+    transform: scale(1.1);
+}
+
+.work {
+    background-color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+    color: black;
+    border-radius: 8px;
+    border-color: #999999;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.70 ease;
+    transition: transform 0.900 ease;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.work:hover {
+    transform: scale(1.1);
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.content1 {
+    display: flex;
+    align-items: center;
+    margin-top: 140px;
+    margin-right: 400px;
+    flex-direction: row-reverse;
+    gap: 0;
+}
+
+.text1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    margin-bottom: 320px;
+    margin-right: 140px;
+    position: absolute;
+}
+
+.imagebody {
+    height: 420px;
+    margin-bottom: 75px;
+    margin-right: 560px;
+    position: relative;
+    z-index: 1;
+}
+
+.form {
+    display: flex;
+    position: absolute;
+    margin-right: 280px;
+    margin-bottom: 68px;
+    border: 5px solid white;
+    border-radius: 16px;
+}
+
+.find {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    border: none;
+}
+
+.search {
+    height: 25px;
+}
+
+input {
+    width: 290px;
+    border: none;
+    height: auto;
+    padding: 20px;
+    cursor: text;
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input:focus {
+    outline: none;
+}
